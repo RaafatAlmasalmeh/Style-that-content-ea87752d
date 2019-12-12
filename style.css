@@ -1,0 +1,25 @@
+ .navbar{
+   display: flex;
+   justify-content: space-evenly;
+background-color: orangered;
+}
+
+.content{
+ display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+h1{
+width: 100%
+text-align: center ;
+   
+}
+
+
+h1 +p {
+  width: 100%;
+}
+
+.news{
+  width: 33%;
+}
